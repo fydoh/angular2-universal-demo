@@ -7,7 +7,7 @@ import {Component} from '@angular/core';
 })
 export class AppComponent {
     name: string = 'David';
-
+    
     sayHello() {
         this.name = "Hello from client";
     }
